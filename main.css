@@ -35,9 +35,16 @@ hr{
 a{
     color:white;
     text-decoration: none;
+    padding:2px;
+}
+a:hover{
+    color:black;
+    background-color: white;
+    transition: all, 0.5s;
 }
 .container{
     width:calc(350px + 5vw);
+    z-index: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -60,4 +67,17 @@ a{
 .eventsList{
     width:100%;
     text-align: left;
+}
+
+.bg{
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 1;
+    height:100vh;
+}
+
+.bgvideo{
+    height:100%;
+    filter:blur(30px);
 }
