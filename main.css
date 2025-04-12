@@ -127,3 +127,12 @@ a:hover{
     margin-top: 20px;
     color:white;
 }
+
+.imgExpand{
+    transition: all 1s;
+}
+
+.imgExpand:hover{
+    transform:scale(2.5);
+    transition: all 1s;
+}
