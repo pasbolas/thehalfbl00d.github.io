@@ -108,6 +108,7 @@ a:hover{
 .stickerBox{
     width:100%;
     display: flex;
+    flex-wrap: wrap;
     gap:2px;
     justify-content: center;
 }
