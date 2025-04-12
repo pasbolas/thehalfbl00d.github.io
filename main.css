@@ -47,3 +47,11 @@ hr{
     overflow-x: visible;
     text-align: center;
 }
+
+.socialContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
