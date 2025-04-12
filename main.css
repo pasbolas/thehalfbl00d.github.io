@@ -70,14 +70,15 @@ a:hover{
 }
 
 .bg{
-    position: fixed;
+    display: flex;
+    justify-content: center;
     top: 0;
     left:0;
     z-index: -1;
-    height:100vh;
 }
 
 .bgvideo{
-    height:100%;
+    position: fixed;
+    height:100vh;
     filter:blur(30px);
 }
