@@ -23,21 +23,19 @@ h2{
     font-size: 30px;
 }
 
-a{
-    background-color: black;
-    color:white;
-    font-size: 20px;
-    font-family: "Special Gothic Condensed One", sans-serif;
-}
-
 hr{
     width:100%;
 }
 .title{
     font-size: 20px;
     font-family: "Special Gothic Expanded One", sans-serif;
+    color:white;
 }
 
+a{
+    color:white;
+    text-decoration: none;
+}
 .container{
     width:calc(350px + 5vw);
     display: flex;
@@ -54,4 +52,12 @@ hr{
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 20px;
+}
+.hackathonsList{
+    width:100%;
+    text-align: left;
+}
+.eventsList{
+    width:100%;
+    text-align: left;
 }
