@@ -54,6 +54,7 @@ a:hover{
     align-items: center;
     overflow-x: visible;
     text-align: center;
+    position: relative;
 }
 
 .socialContainer{
