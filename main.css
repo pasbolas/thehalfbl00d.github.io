@@ -7,6 +7,7 @@ body{
     align-items: center;
     margin:0;
     font-family: "DM Sans", sans-serif;
+    overflow-x: hidden;
 }
 
 h1{
@@ -46,7 +47,7 @@ a:hover{
 }
 .container{
     padding: 10px;
-    width:330px;
+    width:350px;
     z-index: 1;
     display: flex;
     justify-content: center;
