@@ -36,6 +36,7 @@ a{
     color:white;
     text-decoration: none;
     padding:2px;
+    transition: all, 0.5s;
 }
 a:hover{
     color:black;
@@ -43,7 +44,7 @@ a:hover{
     transition: all, 0.5s;
 }
 .container{
-    width:calc(350px + 5vw);
+    width:calc(400px + 5vw);
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -82,4 +83,8 @@ a:hover{
     position: fixed;
     height:100vh;
     filter:blur(30px);
+}
+.yap{
+    text-align: left;
+    font-family: "DM Sans", sans-serif;
 }
