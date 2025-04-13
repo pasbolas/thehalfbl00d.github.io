@@ -77,14 +77,13 @@ a:hover{
 
 .bg{
     display: flex;
-    justify-content: center;
-    top: 0;
-    left:0;
     z-index: -1;
 }
 
 .bgvideo{
     position: fixed;
+    top:-10px;
+    left:0;
     /* height:100vh; */
     filter:blur(05px);
 }

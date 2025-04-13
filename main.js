@@ -26,7 +26,7 @@ if (apS1 >= apV1)
 } 
 else if (apV1 > apS1)
 {
-    document.querySelector('.bgvideo').style.height="100vh";
+    document.querySelector('.bgvideo').style.height="102vh";
     document.querySelector('.bgvideo').style.width="auto";
 }
 
@@ -45,7 +45,7 @@ window.addEventListener('resize', function()
     } 
     else if (apV1 > apS1)
     {
-        document.querySelector('.bgvideo').style.height="100vh";
+        document.querySelector('.bgvideo').style.height="102vh";
         document.querySelector('.bgvideo').style.width="auto";
     }
 })
