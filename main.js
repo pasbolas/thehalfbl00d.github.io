@@ -63,7 +63,7 @@ document.querySelector('#skrilllogo').addEventListener('click',function()
     yoink.play(); 
 })
 
-document.querySelector('#me').addEventListener('click',function(){
+document.querySelector('#me').addEventListener('click',function(e){
     count++;
     let audio = new Audio('assets/audio/i\ do\ not\ consent.mp3');
     if (count % 5 == 0){
