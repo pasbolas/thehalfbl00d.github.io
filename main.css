@@ -160,5 +160,12 @@ a:hover{
         width:100vw;
         overflow-x: hidden;
     }
+    .bgvideo{
+        position: fixed;
+        top:-10px;
+        left:calc(-50% - 50vw);
+        /* height:100vh; */
+        filter:blur(05px);
+    }
 
 }
