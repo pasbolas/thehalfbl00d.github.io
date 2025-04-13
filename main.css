@@ -47,7 +47,7 @@ a:hover{
 }
 .container{
     padding: 10px;
-    width:350px;
+    width:500px;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -85,7 +85,7 @@ a:hover{
 
 .bgvideo{
     position: fixed;
-    height:100vh;
+    /* height:100vh; */
     filter:blur(05px);
 }
 .yap{
@@ -133,6 +133,32 @@ a:hover{
 }
 
 .imgExpand:hover{
-    transform:scale(2.5);
+    transform:scale(1.5);
     transition: all 1s;
+}
+
+#ballin{
+    top:60px; 
+    left:calc(50% + 80px); 
+    position: absolute; 
+    rotate:30deg
+}
+#skrilllogo{
+    top:40px; 
+    left:calc(50% - 160px); 
+    position: absolute; 
+    rotate:-20deg;
+}
+
+@media (max-width:600px){
+    .imgExpand:hover{
+        transform:scale(1.1);
+        transition: all 1s;
+    }
+
+    .container{
+        padding: 10px;
+        width:100vw;
+    }
+
 }
