@@ -172,6 +172,11 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
 }
+
+.projects{
+    width:100%;
+    text-align: left;
+}
 @media (max-width:600px){
     .imgExpand:hover{
         transform:scale(1.1);
