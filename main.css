@@ -138,14 +138,14 @@ a:hover{
 }
 
 #ballin{
-    top:60px; 
-    left:calc(50% + 80px); 
+    top:90px; 
+    left:calc(50% + 90px); 
     position: absolute; 
     rotate:30deg
 }
 #skrilllogo{
-    top:40px; 
-    left:calc(50% - 160px); 
+    top:65px; 
+    left:calc(50% - 170px); 
     position: absolute; 
     rotate:-20deg;
 }
@@ -181,6 +181,11 @@ a:hover{
 
 .underline{
     text-decoration: underline;
+}
+
+.github{
+    width:100px;
+    height:20px;
 }
 @media (max-width:600px){
     .imgExpand:hover{
