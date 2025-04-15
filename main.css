@@ -149,6 +149,29 @@ a:hover{
     rotate:-20deg;
 }
 
+#myspace{
+    background-color: transparent;
+    width:100%;
+    transition: all 1s;
+    cursor: pointer;
+    border:1px solid;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#myspace:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+}
+
+.gifs{
+    height:auto;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 @media (max-width:600px){
     .imgExpand:hover{
         transform:scale(1.1);
