@@ -36,13 +36,14 @@ hr{
 
 a{
     color:white;
-    text-decoration: none;
+    text-decoration: underline;
     padding:2px;
     transition: all, 0.5s;
 }
 a:hover{
     color:black;
     background-color: white;
+    text-decoration: none;
     transition: all, 0.5s;
 }
 .container{
