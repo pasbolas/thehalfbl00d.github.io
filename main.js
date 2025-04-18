@@ -21,12 +21,12 @@ let apV1 = 640/360;
 
 if (apS1 >= apV1) 
     {
-        document.querySelector('.bgvideo').style.width="130vw";
+        document.querySelector('.bgvideo').style.width="100vw";
         document.querySelector('.bgvideo').style.height="auto";
     } 
     else if (apV1 > apS1)
     {
-        document.querySelector('.bgvideo').style.height="130vh";
+        document.querySelector('.bgvideo').style.height="110vh";
         document.querySelector('.bgvideo').style.width="auto";
     }
 
@@ -40,12 +40,12 @@ window.addEventListener('resize', function()
 
     if (apS1 >= apV1) 
     {
-        document.querySelector('.bgvideo').style.width="110vw";
+        document.querySelector('.bgvideo').style.width="100vw";
         document.querySelector('.bgvideo').style.height="auto";
     } 
     else if (apV1 > apS1)
     {
-        document.querySelector('.bgvideo').style.height="120vh";
+        document.querySelector('.bgvideo').style.height="110vh";
         document.querySelector('.bgvideo').style.width="auto";
     }
 })
