@@ -70,3 +70,15 @@ document.querySelector('#me').addEventListener('click',function(e){
         audio.play();
     }
 })
+
+var audio1 = new Audio('assets/Yeahoo Sound Effect.mp3');
+
+const rotateBtn = document.querySelectorAll('#dj');
+rotateBtn.forEach(rotateBtn => {
+    rotateBtn.addEventListener('click', function(){
+    rotateBtn.classList.add("rotate");
+    console.log("dannas clicked");
+    audio1.play();
+    setTimeout(() => rotateBtn.classList.remove('rotate'), 2000);
+    })
+})
