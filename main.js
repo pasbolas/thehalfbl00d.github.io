@@ -82,3 +82,21 @@ rotateBtn.forEach(rotateBtn => {
     setTimeout(() => rotateBtn.classList.remove('rotate'), 2000);
     })
 })
+
+function spawnWildMichael()
+{
+    const container = document.querySelector("#michael");
+    
+    const chance = (Math.random());
+    
+    const data =    `
+                        <h1>A wild michael just appeared</h1>
+                        <img src="assets/michaeljackson.gif" width="40%">
+                        <hr>
+                    `
+    if (chance > 0.5){
+        container.innerHTML+= data;
+    }
+}
+
+spawnWildMichael();
