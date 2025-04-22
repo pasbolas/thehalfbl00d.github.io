@@ -59,16 +59,27 @@ document.querySelector('#ballin').addEventListener('click',function()
     while(audio.paused && audio2.paused);   
 })
 document.querySelector('#skrilllogo').addEventListener('click',function()
-{
-    yoink.play(); 
+{   
+    async function vibrate(){
+        navigator.vibrate([200, 300, 200]);
+    }
+    yoink.play();
+    vibrate(); 
 })
 
 document.querySelector('#me').addEventListener('click',function(e){
     count++;
-    let audio = new Audio('assets/audio/i\ do\ not\ consent.mp3');
-    if (count % 5 == 0){
+    
+    navigator.vibrate([100]);
+    if (count % 5 == 0)
+        {
+        let audio = new Audio('assets/audio/i\ do\ not\ consent.mp3');
         audio.play();
     }
+})
+
+document.querySelector('a').addEventListener('click', () => {
+    navigator.vibrate(200);
 })
 
 var audio1 = new Audio('assets/Yeahoo Sound Effect.mp3');
@@ -100,3 +111,17 @@ function spawnWildMichael()
 }
 
 spawnWildMichael();
+
+if (/Android/i.test(navigator.userAgent)){
+    document.querySelector('.device').innerHTML = `
+    <h1>
+    Thanks for using Android <3
+    </h1>
+    `
+} else if(/iPhone|iPad|iPod/i.test(navigator.userAgent)){
+    document.querySelector('.device').innerHTML = `
+    <h1>
+    Poopy Iphone, Get Android!
+    </h1>
+    `
+}
